@@ -1,5 +1,5 @@
 <?php
 
-$db = new Database("2nd_sem_video");
-$db->user("root")->password("")->connect();
+$db = new Database("emil928x");
+$db->user("emil928x")->password("123456")->connect();
 
