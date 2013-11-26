@@ -11,8 +11,8 @@ include_once "views/Userlogin.php"; //loads login to user section -> shows login
 ############### CONNECT TO A DATEBASE ################################
 ######################################################################
 
-$db = new Database ( "pete604p" );
-$db ->user( "root" ) ->password( "" )->connect();
+$db = new Database ( "pete604p.keaweb.dk" );
+$db ->user( "pete604p" ) ->password( "cgcgce1010" )->connect();
 ######################################################################
 
 $page = new Page(); //uses Magic php to define the page variable
