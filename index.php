@@ -12,7 +12,7 @@ include_once "views/Userlogin.php"; //loads login to user section -> shows login
 ######################################################################
 
 $db = new Database ( "pete604p" );
-$db ->user( "pete604p" ) ->password( "cgcgce1010" )->connect("srv01.keaweb.dk:3306");
+$db ->user( "pete604p" ) ->password( "cgcgce1010" )->host("srv01.keaweb.dk:3306")->connect();
 ######################################################################
 
 $page = new Page(); //uses Magic php to define the page variable
