@@ -11,7 +11,7 @@ include_once "views/Userlogin.php"; //loads login to user section -> shows login
 ############### CONNECT TO A DATEBASE ################################
 ######################################################################
 
-$db = new Database ( "pete604p.keaweb.dk" );
+$db = new Database ( "pete604p" );
 $db ->user( "pete604p" ) ->password( "cgcgce1010" )->connect();
 ######################################################################
 
