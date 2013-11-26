@@ -1,7 +1,8 @@
 <?php
 
-function autoload($className){
-	include_once "classes/$className.class.php";
+function autoload( $className ){
+	include_once "models/$className.class.php";
 }
 
-spl_autoload_register("autoload");
+//tell PHP to call function autoload() whenever it is required
+	spl_autoload_register( "autoload" );
